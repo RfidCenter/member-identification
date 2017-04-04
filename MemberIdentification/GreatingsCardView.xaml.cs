@@ -24,19 +24,6 @@ namespace MemberIdentification
                                                                                                          typeof(GreatingsCardView),
                                                                                                          new PropertyMetadata(Stretch.Uniform, ViewboxesStretchPropertyChanged));
 
-        private static void ViewboxesStretchPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
-        {
-            var card = d as GreatingsCardView;
-            if(card == null)
-                return;
-
-            if ((Stretch) e.NewValue == Stretch.None)
-            {
-                card.InitialsBlock.FontSize = Properties.Settings.Default.InitialsFontSize;
-                card.OccupationBlock.FontSize = Properties.Settings.Default.OccupationFontSize;
-            }
-        }
-
         public GreatingsCardView()
         {
             this.InitializeComponent();
@@ -44,20 +31,35 @@ namespace MemberIdentification
 
         public Stretch ViewboxesStretch
         {
-            get { return (Stretch) this.GetValue(ViewboxesStretchProperty); }
-            set { this.SetValue(ViewboxesStretchProperty, value); }
+            get => (Stretch) this.GetValue(ViewboxesStretchProperty);
+            set => this.SetValue(ViewboxesStretchProperty, value);
         }
 
         public double GreatingTextOpacity
         {
-            get { return (double) this.GetValue(GreatingTextOpacityProperty); }
-            set { this.SetValue(GreatingTextOpacityProperty, value); }
+            get => (double) this.GetValue(GreatingTextOpacityProperty);
+            set => this.SetValue(GreatingTextOpacityProperty, value);
         }
 
         public PersonalCardRecord PersonalCard
         {
-            get { return (PersonalCardRecord) this.GetValue(PersonalCardProperty); }
-            set { this.SetValue(PersonalCardProperty, value); }
+            get => (PersonalCardRecord) this.GetValue(PersonalCardProperty);
+            set => this.SetValue(PersonalCardProperty, value);
+        }
+
+        private static void ViewboxesStretchPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            var card = d as GreatingsCardView;
+            if (card == null)
+            {
+                return;
+            }
+
+            if ((Stretch) e.NewValue == Stretch.None)
+            {
+                card.InitialsBlock.FontSize = Properties.Settings.Default.InitialsFontSize;
+                card.OccupationBlock.FontSize = Properties.Settings.Default.OccupationFontSize;
+            }
         }
     }
 }

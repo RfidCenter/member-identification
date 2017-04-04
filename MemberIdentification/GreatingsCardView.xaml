@@ -5,10 +5,10 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:MemberIdentification"
              mc:Ignorable="d"
-             d:DesignHeight="150" d:Width="1000">
+             d:DesignHeight="150" d:DesignWidth="1000">
     <UserControl.Resources>
         <Style TargetType="TextBlock">
-            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="TextAlignment" Value="Center" />
             <Setter Property="Effect">
                 <Setter.Value>
                     <DropShadowEffect BlurRadius="10" Color="#F05A28" ShadowDepth="0" />
@@ -16,7 +16,7 @@
             </Setter>
         </Style>
         <Style TargetType="Viewbox">
-            <Setter Property="Stretch" Value="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:GreatingsCardView}, Path=ViewboxesStretch}"/>
+            <Setter Property="Stretch" Value="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:GreatingsCardView}, Path=ViewboxesStretch}" />
         </Style>
     </UserControl.Resources>
     <Grid>
@@ -32,13 +32,13 @@
         </Viewbox>
         <Viewbox Grid.Row="1">
             <TextBlock FontFamily="Segoe UI" Foreground="#FFFFFF"
-                Text="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:GreatingsCardView}, Path=PersonalCard.Initials}"
-                       x:Name="InitialsBlock" x:FieldModifier="private"/>
+                       Text="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:GreatingsCardView}, Path=PersonalCard.Initials}"
+                       x:Name="InitialsBlock" x:FieldModifier="private" />
         </Viewbox>
         <Viewbox Grid.Row="2">
             <TextBlock FontFamily="Segoe UI" Foreground="#DCDCDC"
                        Text="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:GreatingsCardView}, Path=PersonalCard.CompanyAndOccupation}"
-                       x:Name="OccupationBlock" x:FieldModifier="private"/>
+                       x:Name="OccupationBlock" x:FieldModifier="private" />
         </Viewbox>
     </Grid>
 </UserControl>

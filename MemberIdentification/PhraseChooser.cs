@@ -7,24 +7,19 @@ namespace MemberIdentification
 {
     public class PhraseChooser
     {
-        private static readonly PhraseChooser _instance;
-
         private readonly Random _random = new Random();
         private string[] _phrases = null;
 
         static PhraseChooser()
         {
-            _instance = new PhraseChooser();
+            Instance = new PhraseChooser();
         }
 
         private PhraseChooser()
         {
         }
 
-        public static PhraseChooser Instance
-        {
-            get { return _instance; }
-        }
+        public static PhraseChooser Instance { get; }
 
         public string GeneratePhrase(PersonalCardRecord card)
         {

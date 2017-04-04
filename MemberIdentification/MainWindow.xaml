@@ -14,15 +14,15 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row="1" Margin="30" >
+        <Grid Grid.Row="1" Margin="30">
             <Grid.OpacityMask>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
                     <GradientStop Offset="0.8" Color="Black" />
                     <GradientStop Offset="1" Color="Transparent" />
                 </LinearGradientBrush>
             </Grid.OpacityMask>
-            
-            <StackPanel Orientation="Vertical" x:Name="HistoryStackPanel" x:FieldModifier="private" Background="Transparent" CanVerticallyScroll="False"/>
+
+            <StackPanel Orientation="Vertical" x:Name="HistoryStackPanel" x:FieldModifier="private" Background="Transparent" CanVerticallyScroll="False" />
         </Grid>
     </Grid>
 </Window>

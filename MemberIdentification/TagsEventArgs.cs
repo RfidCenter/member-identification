@@ -12,6 +12,6 @@ namespace MemberIdentification
             this.Tags = tags;
         }
 
-        public string[] Tags { get; private set; }
+        public string[] Tags { get; }
     }
 }

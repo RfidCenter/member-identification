@@ -45,7 +45,9 @@ namespace MemberIdentification
 
                 if (!this._client.Authorize(Properties.Settings.Default.BusLogin,
                                             Properties.Settings.Default.BusPassword))
+                {
                     throw new BaseException(RfidErrorCode.InvalidLoginAndPassword);
+                }
 
                 this._client.ReceivedEvent += this.ClientOnReceivedEvent;
 
@@ -71,7 +73,9 @@ namespace MemberIdentification
                 var msg = (TransponderFoundEvent) args.EventMessage;
 
                 if (this._listenReaderId != msg.ReaderRecord.Id)
+                {
                     return;
+                }
 
                 this.OnTagsFound(new TagsEventArgs(msg.Transponders.Select(rec => rec.IdAsString).ToArray()));
             }

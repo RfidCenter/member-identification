@@ -31,7 +31,9 @@ namespace PrintMembers
                 var client = new RfidBusClient(pbCommunication, config);
 
                 if (!client.Authorize(Properties.Settings.Default.BusLogin, Properties.Settings.Default.BusPassword))
+                {
                     throw new BaseException(RfidErrorCode.InvalidLoginAndPassword);
+                }
 
                 var printerGuid = Guid.Parse(Properties.Settings.Default.RfidPrinter);
 
