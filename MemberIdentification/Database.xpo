@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="c454cd97-a2a2-4b18-8486-75d032073f19" dbName="db" connectionInfo="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxEZXZFeHByZXNzWHBvR2VuZXJhdG9yU2V0dGluZ3MgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgcHJvdmlkZXJLZXk9IkFjY2Vzczk3Ij4NCiAgPHBhcmFtZXRlcj4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0iZGF0YWJhc2UiIHZhbHVlPSJEOlx1c2Vyc1xzZHZuXHdvcmtccHJvamVjdHNcTWFkaVN0YW5kXE1hZGlTdGFuZFxyZXNvdXJjZXNcZGIubWRiIiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJ1c2VyaWQiIHZhbHVlPSIiIC8+DQogICAgPENvbm5lY3Rpb25QYWdlU2V0dGluZ3NJdGVtIG5hbWU9InBhc3N3b3JkIiB2YWx1ZT0iIiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJyZWFkIG9ubHkiIHZhbHVlPSIxIiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJnZW5lcmF0ZUNvbm5lY3Rpb25IZWxwZXIiIHZhbHVlPSJ0cnVlIiAvPg0KICA8L3BhcmFtZXRlcj4NCjwvRGV2RXhwcmVzc1hwb0dlbmVyYXRvclNldHRpbmdzPg==" namespace="MadiStand.db" connectionString="XpoProvider=MSAccess;Provider=Microsoft.Jet.OLEDB.4.0;Mode=Share Deny None;data source=D:\users\sdvn\work\projects\MadiStand\MadiStand\resources\db.mdb;user id=;password=;" dataBaseShemaInfo="H4sIAAAAAAAEAMVX227jNhB9L9B/EPQcWheSlrSQvejauwuht2DtFH3lZeQQtShXlGKnX1/Klh0rdnabxvA+SXM4w5lDHXKo9P2mWDoPUBlV6pEbDHz3/fjHH9IPzMCsLiu2gEznpWO9tHm3MWrk3tf16p3nrdfrwRoPymrhhb4feH/++stM3EPBkNKmZlqAe4iS345ybVbHSeeML8G0Kbf2HjkC9pDzGytg5N7a0kvdhXfjt5UqWPX4Mzw6mbnT6u/GOtZVA8de1m9SLptCmx5oYVNXSi/GmUy97rUX5Z2Gpd5TymP4XIJ0+mEHO7vH/HFlq5ttE7kdqYmqH11npv6x7yGlruO9foqyWDH9+lkyXeNwP0kmXbuCllS3fNbIJOjalrdHXl9ZplWt2NK8keDvQjQrVlvZvnGiuZJvW6UZW89VAaYfelYnmZawgRNBbOG9oA9Kcr+q3hf1+00Fn6+tRbtKeixOS04/lRWohbYlmiPKqbfdl0/2R72129JTrzMOg1NlWuBuJVkN49zqwTr1wYPv50bJTI4hzgWOBUVxOGSIDGmCGPMxYkAD7IscJ5ymXud8CO6Y9k6QF2E70H6F3eC43YapdwT0HL9G77UUj2kGEYSJJYqAhQEiIQ1RLCOBWB7wcBgxiXF8QvPom/4vprvT4vpkmQhkTsMcSR7FiEQyQUksYhQBibl9wznIS5Ntt8W1eRIOEfMpR5yIEJEA54gRiVEYJX4InLFQ5hfn2R2012fLhc8jmhCESZ4gIjhBPMIS+ZQwLqgIMCeXZvvUD67PFw+F3bIAiPmJsComEiWYBCjCOI9FQjGOkkvztW3r+kRjQjklCUc0gAgRxgiKA0xQiMlQsFzETIaXJrpvr9/hJMaxPwzyAHEqpW04eIgSe2AhbvdrEPk0ZgT+M9tzaNcyD0hnP7mk7R0c5G1Vii3Ytdv0j92FfTyFh4+bVQXGDKasZoOHAA/CG6cbHrXWIBr4N86kWdZNBSMNTV2x5Y1z2/ClEraFz8u/QI94HMsgokRGvg8kYam3T7HNN1kyY8C0H+BLc1jd9CdpS4NcbQ7XgBaaNXkP+gJF+QDPHXfoc9+J/e8Y32lxz/SiPfm39m5pztVgr/rlCqpafefaXigj/QwaKisv218Le282e+2d4D3vKRh7vYLqk7Ja6GR9fsz+qXnPftXG/wI0NHD20w0AAA==" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="401bf08f-7bc0-477e-a9c1-cc92312023ff">
+      <xpObject Id="e8fc38c5-826a-4659-aa03-ae5130cf39b5" name="Persona" baseClass="XPLiteObject" userFileName="Persona" designerFileName="Persona.Designer" className="Persona" virtualBaseClass="XPLiteObject" persistent="Persona" virtualName="Persona">
+        <fields>
+          <generalXpObjectHasFields Id="133aa317-2f9e-432b-ac65-52dae6b292fc">
+            <field Id="17e29c38-ea21-4252-8d7c-af1b267ad338" name="City" persistent="City" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="255" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b0941dfb-5cd1-470c-8a80-17d918f217df">
+            <field Id="ac1df52f-db78-47d9-98c8-7e48b98c3fed" name="Company" persistent="Company" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="255" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c25b7313-7634-4459-b99c-ec16b526a881">
+            <field Id="4be7a05b-b4c2-413f-a4d3-27902ebaa2df" name="Id" columnType="Int32" key="true" isIdentity="true" persistent="Id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="1ffa2f10-3415-4059-9e46-d7e59d3a89a0">
+            <field Id="bc0b7594-34f9-4cb4-b73d-054abc5c13b4" name="Initials" persistent="Initials" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="255" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d2c61208-3679-4ff1-9cce-890f6b25988f">
+            <field Id="36c29cee-a09c-474d-9341-733f8c953379" name="Occupation" persistent="Occupation" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="255" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="92612391-5f44-4107-89a9-a93b7d5309ed">
+            <field Id="845b549b-51e7-4aa4-8134-2346cafc8ad2" name="Tid" persistent="Tid" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="255" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2524e232-5f19-4b05-9212-cd90251bddb3">
+            <field Id="138061f1-b5dd-4636-9ac1-bbaa17058a4e" name="SawTimes" columnType="Int32" persistent="SawTimes" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
