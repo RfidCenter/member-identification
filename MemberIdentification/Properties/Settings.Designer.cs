@@ -61,15 +61,6 @@ namespace MemberIdentification.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("ea47ab4a-812c-45d3-ad95-f0e92ec4a634")]
-        public string ListenReader {
-            get {
-                return ((string)(this["ListenReader"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("250")]
         public int NewCardHeight {
             get {
@@ -120,6 +111,15 @@ namespace MemberIdentification.Properties {
         public double OccupationFontSize {
             get {
                 return ((double)(this["OccupationFontSize"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("52478302-ac11-4b3b-9bbd-e4b7c4c3627e")]
+        public string ListenReader {
+            get {
+                return ((string)(this["ListenReader"]));
             }
         }
     }
